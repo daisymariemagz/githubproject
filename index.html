@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daisy Marie Magalso - Portfolio</title>
@@ -20,9 +21,9 @@
             align-items: center;
             justify-content: center;
             height: 0 auto;
-            max-width: 800px; /* or any value you deem fit */
+            max-width: auto; /* or any value you deem fit */
             margin: 0 auto;
-            margin-top: 20px
+	   
         }
 
         header {
@@ -32,11 +33,23 @@
             text-align: center;
         }
 
+	header h1 {
+            color: black; /* Make sure it's visible */
+        }        
+
         nav a {
             margin: 0 15px;
             text-decoration: none;
             color: #333;
         }
+
+	nav a:hover {
+	    color: #8A2BE2;
+	    border-radius: 50%;
+	    height:50px;
+	    width:50px;
+
+	}
 
         section {
             margin: 20px 0;
@@ -74,7 +87,7 @@
         <section id="projects">
             <h2>Projects</h2>
             <ul>
-                <li><a href="https://daisymariemagz.github.io/githubproject/">Project 1</a>: I have made  a simple Github project.</li>
+                <li><a href="https://daisymariemagz.github.io/githubproject/">Project 1</a>: I have made a simple Github project.</li>
                 <li><a href="#">Project 2</a>: Short description of another project.</li>
                 <!-- Add more projects as list items -->
             </ul>
@@ -83,7 +96,7 @@
         <section id="contact">
             <h2>Contact</h2>
             <p>
-                You can email me through <a href="mailto:magalsodaisymarie@gmail.com">magalsodaisymarie@gmail.com</a>.
+                You can email me through <a href="mailto:magalsodaisymarie@gmail.com">magalsodaisymarie@gmail.com</a>
             </p>
         </section>
 
